@@ -1,0 +1,23 @@
+git config --global user.name RenanZenaro
+git config --global user.email renanzenaro@hotmail.com
+
+Passos para executar o projeto do react-native
+-----------------------------------------------
+1. Baixar o projeto do repositório;
+
+2. Baixar as dependências do projeto executanto o comando:
+   npm i
+
+3. Instalando o metro:
+   npx expo install react-native-web react-dom @expo/metro-runtime
+
+4. Abrir o emulador no Android Studio;
+
+5. Executar o projeto executando o comando:
+   npm run android
+
+
+extensões: npm install @react-navigation/native
+           npx expo install react-native-screens react-native-safe-area-context
+           npm install react-native-screens react-native-safe-area-context
+           npm install @react-navigation/native-stack
